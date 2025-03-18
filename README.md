@@ -30,6 +30,7 @@ yarn add dragdropx
 
 # Using pnpm
 pnpm add dragdropx
+```
 
 ```jsx
 import React from 'react';
