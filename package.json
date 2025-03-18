@@ -1,0 +1,42 @@
+{
+  "name": "dragdropx",
+  "version": "1.0.1",
+  "description": "A React drag and drop file upload component with progress indicator",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=19.0.0",
+    "react-dom": ">=19.0.0",
+    "next": ">=12.0.0"
+  },
+  "dependencies": {
+    "framer-motion": "^12.5.0",
+    "lucide-react": "^0.482.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/react": "^19.0.11",
+    "@types/react-dom": "^19.0.4",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "file-upload",
+    "drag-drop",
+    "component"
+  ],
+  "author": "Shah Alam",
+  "license": "MIT"
+}
