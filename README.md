@@ -1,12 +1,5 @@
 # React Drag Drop X
-
 A modern, customizable React component for drag-and-drop file uploads with real-time progress tracking, file preview, and smooth animations.
-
-[![npm version](https://img.shields.io/npm/v/reactdragdropx.svg)](https://www.npmjs.com/package/react-drag-drop-x)
-[![license](https://img.shields.io/npm/l/react-drag-drop-x.svg)](https://github.com/yourusername/react-drag-drop-x/blob/main/LICENSE)
-
-![Demo](https://via.placeholder.com/800x400?text=React+Drag+Drop+X+Demo)
-
 ## Features
 
 - 🚀 Modern drag-and-drop interface
@@ -60,7 +53,7 @@ export default App;
 # Next.js Usage
 ```jsx
 import React from 'react';
-import { DragDropX } from 'react-drag-drop-x';
+import { DragDropX } from 'dragdropx';
 
 export default function UploadPage() {
   const handleFileChange = (fileInfo) => {
@@ -83,7 +76,7 @@ export default function UploadPage() {
 # Customizing Accepted File Types
 ```jsx
 import React from 'react';
-import { DragDropX } from 'react-drag-drop-x';
+import { DragDropX } from 'dragdropx';
 
 function ImageUploader() {
   return (
