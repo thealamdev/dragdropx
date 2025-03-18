@@ -2,6 +2,8 @@
 A modern, customizable React component for drag-and-drop file uploads with real-time progress tracking, file preview, and smooth animations.
 ## Features
 
+[![npm version](https://img.shields.io/npm/v/dragdropx)](https://www.npmjs.com/package/dragdropx)
+
 - 🚀 Modern drag-and-drop interface
 - 📊 Real-time upload progress indicator
 - 🖼️ Image preview for uploaded files
