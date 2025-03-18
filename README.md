@@ -21,19 +21,19 @@ A modern, customizable React component for drag-and-drop file uploads with real-
 
 ## Installation
 
+### # Using npm
 ```bash
-# Using npm
 npm install dragdropx
 ```
 
+### Using yarn
 ```bash
-# Using yarn
 yarn add dragdropx
 ```
-
+## React.js usage
 ```jsx
 import React from 'react';
-import { DragDropX } from 'react-drag-drop-x';
+import { DragDropX } from 'dragdropx';
 
 function App() {
   const handleFileChange = (fileInfo) => {
@@ -47,7 +47,10 @@ function App() {
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">File Uploader</h1>
-      <DragDropX onFileChange={handleFileChange} />
+      <DragDropX     
+        width={600}
+        height={400}
+        onFileChange={handleFileChange} />
     </div>
   );
 }
