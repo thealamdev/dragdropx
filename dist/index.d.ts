@@ -1,17 +1,14 @@
 import * as react_jsx_runtime from 'react/jsx-runtime';
 
-interface FileInfoInterface {
-    name: string;
-    size: number;
-    url: string;
-    type: string;
-}
-interface DragDropXProps {
+interface IncomingInterface {
+    name?: string;
     width?: number;
     height?: number;
-    onFileChange?: (fileInfo: FileInfoInterface | null) => void;
-    acceptedFileTypes?: string[];
+    multiple?: boolean;
+    accept?: string[];
+    response?: string;
+    onFileChange?: (fileData: string[] | FileList | null) => void;
 }
-declare function DragDropX({ width, height, onFileChange, acceptedFileTypes }: DragDropXProps): react_jsx_runtime.JSX.Element;
+declare function DragDropX({ name, width, height, multiple, accept, response, onFileChange }: IncomingInterface): react_jsx_runtime.JSX.Element;
 
-export { DragDropX, type DragDropXProps, type FileInfoInterface };
+export { DragDropX };
