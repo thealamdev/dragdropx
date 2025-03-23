@@ -1,6 +1,6 @@
 {
   "name": "dragdropx",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A React drag and drop file upload component with progress indicator",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -15,8 +15,8 @@
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
-    "react": ">=19.0.0",
-    "react-dom": ">=19.0.0",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
     "next": ">=12.0.0"
   },
   "dependencies": {
